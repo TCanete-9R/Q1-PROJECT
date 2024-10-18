@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ShirtHoodieX</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: slategrey;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    header .logo {
+        text-align: center;
+    }
+
+    header nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    header nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .hero {
+        background-image: url(https://assets.adidas.com/images/w_940,f_auto,q_auto/400759a65a4c47edb6ee4fb62de73b5a_9366/JJ4357_21_model.jpg);
+        color: black;
+        text-align: center;
+        padding: 350px;
+    }
+
+    .hero h2 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .hero .btn {
+        background-color: #fff;
+        color: grey;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }  
+
+    #products {
+        padding: 40px 20px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    #products h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .product-grid {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+        width: 200px;
+        margin: 15px;
+        border-radius: 5px;
+    }
+
+    .product img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .product h3 {
+       margin-bottom: 10px;
+    }
+
+    .product p {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .product .btn {
+        background-color: #808080;
+        color: #fff;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: slategrey;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Welcome to ShirtHoodieX</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>ShirtHoodieX Shop</h2>
+        <p>Find your preferred clothes!</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <header></header>
+
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://mn-la.com/cdn/shop/files/10_15_23167224-3175-4f71-9446-bc8fb2bd49c4_195x195@2x.jpg?v=1729065348" alt="M'$ UNIVERSITY V2 TEE IN WHITE">
+                <h3>M'$ UNIVERSITY V2 TEE IN WHITE</h3>
+                <p>₱970.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://mn-la.com/cdn/shop/files/5_10_0ebc320d-9388-4fe6-b486-be2824f2ebc5_195x195@2x.jpg?v=1729039230" alt="STRIPED PIQUE TOPSHELF TEE IN ANTHRACITE">
+                <h3>STRIPED PIQUE TOPSHELF TEE IN ANTHRACITE</h3>
+                <p>₱870.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://mn-la.com/cdn/shop/files/IMG_4615_195x195@2x.jpg?v=1729003785" alt="COLLIDE INSIDE OUT TOPSHELF TEE IN ARSENIC">
+                <h3>"COLLIDE" INSIDE OUT TOPSHELF TEE IN ARSENIC</h3>
+                <p>₱1,070.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://mn-la.com/cdn/shop/files/9_9_905d9e8a-7482-434b-8ee9-53622ddc6be7_195x195@2x.jpg?v=1729002720" alt="COLLIDE INSIDE OUT TOPSHELF TEE IN BONEProduct 4">
+                <h3>"COLLIDE" INSIDE OUT TOPSHELF TEE IN BONE</h3>
+                <p>₱1,070.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://wearthepeace.com/cdn/shop/products/human-embroidered-hoodie-wear-the-peace-664676_1445x.jpg?v=1693435839" alt="PINK HUMAN HOODIE">
+                <h3>PINK HUMAN HOODIE</h3>
+                <p>₱3,389.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://images.fashiontiy.com/products/T10383B823/main_9.jpg?x-oss-process=image/interlace,1/format,webp" alt="GREY HOODIE">
+                <h3>GREY HOODIE</h3>
+                <p>₱2,999.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://i.etsystatic.com/48867419/r/il/1c2ac3/5644743551/il_fullxfull.5644743551_e2dr.jpg" alt="SKI HOODIE">
+                <h3>SKI HOODIE</h3>
+                <p>₱3,470.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/61s0yhPytRL._AC_UY1000_.jpg" alt="CALIFORNIA HOODIE">
+                <h3>CALIFORNIA HOODIE</h3>
+                <p>₱3,540.00</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Tarcisius John C. Cañete | 9-Ruby | Q1 PROJECT</p>
+    </footer>
+</body>
+</html>
